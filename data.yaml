@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 10
+names: ['Auto', 'Hueco', 'Motocicleta', 'Paso de Cebra', 'Persona', 'Podoctatil', 'Poste', 'Semaforo Rojo', 'Semaforo Verde', 'Semoforo Rojo']
+
+roboflow:
+  workspace: practica1
+  project: release3-r8crz
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/practica1/release3-r8crz/dataset/2
